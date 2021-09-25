@@ -1,0 +1,1 @@
+# Projeto frontend Qual Farmácia
