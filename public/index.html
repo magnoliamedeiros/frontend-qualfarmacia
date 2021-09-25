@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    
+
+    <title>Qual Farmácia</title>
+  </head>
+  <body>   
+
+    <header>
+        <!-- antes:  d-flex justify-content-between align-items-center -->
+        <div class="container">
+
+        <!-- Código antigo -->
+        <!-- <img src="logo.png" width="80" alt="Logo Qual Farmácia">
+            <nav>
+                <ul class="list-inline">
+                    <li class="list-inline-item mr-3">Home</li>
+                    <li class="list-inline-item mr-3">Farmácias</li>
+                    <li class="list-inline-item mr-3">Sobre</li>
+                </ul>
+            </nav>
+        </div> -->
+
+        <!-- Teste com novo código para a navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+            <a class="navbar-brand" href="index.html">
+                <img class="img-logo" src="logo.png" width="80" alt="Logo Qual Farmácia">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+              
+                <ul class="navbar-nav ml-lg-auto">
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">portifolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">contato</a>
+                </li>
+                
+              </ul>
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+            </div>
+          </nav>
+
+    </header>
+
+    <section class="principal">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-6">
+
+                    <h2 class="titulo-principal">tudo para facilitar a sua busca por farmácias.</h2>
+                    <p>O que você precisa está aqui. Encontre as informações que você procura.</p>
+
+                    <form class="form-inline my-2 my-lg-0">
+
+                        <div class="input-search">
+                            <input class="form-control form-control-lg" type="search" placeholder="Pesquise pelo nome..." aria-label="pesquise pelo nome da farmácia">
+                        </div>
+
+                        <button class="btn btn-lg btn-primary my-2" type="submit">Buscar</button>
+                        
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="plantao">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <h2 class="titulo-plantao">plantão</h2>
+                </div>
+                    <div class="col-md d-flex justify-content-center card-plantao">
+                        <div class="card" style="width: 18rem;">
+
+                            <img src="bg.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h3 class="card-title">Card title 1</h3>
+                              <h5 class="card-subtitle mb-2 text-muted">Card subtitle 1</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md d-flex justify-content-center card-plantao">
+                        <div class="card" style="width: 18rem;">
+                            <img src="bg.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title 2</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="text-white">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col">
+                    <nav>
+                        <ul class="list-unstyled">
+                            <li class="h4">Links</li>
+                            <li>Home</li>
+                            <li>Cardápio</li>
+                            <li>Contato</li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col">
+                    <nav>
+                        <ul class="list-unstyled">
+                            <li class="h4">Pizzas</li>
+                            <li>Tradicionais</li>
+                            <li>Tradicionais</li>
+                            <li>Nobres</li>
+                            <li>Doces</li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+
+            <p class="text-center">Pizzaria.com.br</p>
+
+        </div>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>

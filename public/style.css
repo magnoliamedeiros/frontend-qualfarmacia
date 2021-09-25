@@ -1,0 +1,93 @@
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.principal {
+    position: relative;
+    /* background: url(); */
+    background-color: gray;
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    /* padding: 200px 0 200px 0; */
+    padding: 250px 0 200px;
+    text-transform: uppercase;
+}
+
+.principal p {
+    text-transform: initial;
+}
+
+button.navbar-toggler {
+    margin-right: 20px;
+}
+
+.img-logo {
+    margin-left: 20px;
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #702929;
+}
+
+.nav-item {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    background-color: #262626;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #262626;
+    padding: 5px 15px;
+}
+
+.input-search {
+    margin: 8px 0px;
+    margin-right: 15px;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    color: #fff;
+    border: 2px solid #303030;
+    border-radius: 0;
+    outline: none;
+}
+
+.navbar-collapse {
+    background-color: #f7f7f7;
+}
+
+.titulo-plantao {
+    margin: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-plantao {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px)
+{
+    .principal {
+        padding: 150px 0;
+    }
+    
+    .principal h2 {
+        font-size: 1.8em;
+    }
+}
